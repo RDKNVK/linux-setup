@@ -29,6 +29,9 @@ sudo apt-get update
 sudo apt-get install nodejs -y --force-yes
 export PATH=$PATH:/opt/node/bin
 
+npm install express
+npm install sqlite3
+npm install jsdom
 ## alternative node.js installation:
 # g++ so I can compile latest node.js
 #sudo apt-get install g++ -y --force-yes
@@ -36,3 +39,5 @@ export PATH=$PATH:/opt/node/bin
 #tar -zxf node-v0.6.18.tar.gz 
 #cd node-v0.6.18
 #./configure && make && sudo make install
+
+
