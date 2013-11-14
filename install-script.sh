@@ -18,26 +18,19 @@ sudo apt-get update
 sudo apt-get install sublime-text-installer -y 
 # CHROME
 sudo apt-get install google-chrome-stable
-
 # g++ so I can compile latest node.js
 sudo apt-get install g++ -y --force-yes
 
-# those installed some very old version, incompatible with express.js
-# sudo apt-get install nodejs -y --force-yes
-# sudo apt-get install npm -y --force-yes
 
 # node.js version needs to be downloaded from nodejs.org
-tar -zxf node-v0.6.18.tar.gz 
-cd node-v0.6.18
-./configure && make && sudo make install
-
+#tar -zxf node-v0.6.18.tar.gz 
+#cd node-v0.6.18
+#./configure && make && sudo make install
+sudo apt-get install -y python-software-properties python g++ make
+sudo add-apt-repository -y ppa:chris-lea/node.js
+sudo apt-get update
+sudo apt-get install nodejs
 export PATH=$PATH:/opt/node/bin
-
-
-
-
-# Or use the one liner to install the latest node.js
-#  bash < <(curl http://h3manth.com/njs)
 
 # some window tiling program
 sudo apt-get install x-tile -y --force-yes
