@@ -6,7 +6,7 @@ sudo add-apt-repository ppa:webupd8team/sublime-text-3
 
 sudo apt-get update
 
-
+sudo apt-get keepass2 -y --force-yes
 # SUBLIME-TEXT
 sudo apt-get install sublime-text-installer -y 
 # CHROME
