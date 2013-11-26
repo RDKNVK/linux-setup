@@ -40,4 +40,4 @@ npm install jsdom
 #cd node-v0.6.18
 #./configure && make && sudo make install
 
-
+sudo apt-get install ttf-mscorefonts-installer --quiet
