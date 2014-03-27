@@ -1,0 +1,29 @@
+   13  sudo apt-get install skype
+   14  sudo apt-get install keepass -y
+   15  sudo apt-get install keypass -y
+   16  sudo apt-get install keepassx -y
+   19  sudo apt-get install dropbox -y
+   22  sudo apt-get install keepass2 -y
+   27  sudo apt-get install xdotool -y
+   44  sudo apt-get install node -y
+   53  sudo apt-get install nodejs -y
+   61  sudo apt-get install npm -y
+  117  sudo apt-get install virtualbox -y
+  119  sudo apt-get install build-essential linux-headers-`uname -r`
+  120  sudo apt-get install dkms
+  135  sudo apt-get install virtualbox-4.3
+  345  sudo apt-get install lamp-server^
+  351  sudo apt-get install wireshark -y
+  386  sudo apt-get install konsole 
+  442  sudo apt-get install gwenview 
+  455  sudo apt-get install dict
+  489  sudo apt-get install feh
+  493  sudo apt-get install clementine -y
+  507  history | grep apt-get install
+  509  history | grep "apt-get install"
+  510  history | grep "apt-get install" >> shell_scripts/install.txt
+
+
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt-get update
+sudo apt-get install ap-hotspot
