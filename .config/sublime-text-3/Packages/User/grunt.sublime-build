@@ -1,0 +1,5 @@
+{
+	"cmd": ["grunt", "--no-color"],
+	//"working_dir": "${project_path"
+	//"shell": true
+}

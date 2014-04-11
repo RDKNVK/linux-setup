@@ -1,0 +1,30 @@
+http://www.x.org/wiki/Development/Documentation/PointerAcceleration/
+
+xinput list-props 'Genius Optical Mouse'
+xinput --set-prop "Genius Optical Mouse" "Device Accel Constant Deceleration" 4
+accel 2.7, sens 2px
+Device 'Genius Optical Mouse':
+	Device Enabled (141):	1
+	Coordinate Transformation Matrix (143):	1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000
+	Device Accel Profile (262):	2
+	Device Accel Constant Deceleration (263):	1.700000
+	Device Accel Adaptive Deceleration (264):	1.500000
+	Device Accel Velocity Scaling (265):	1.000000
+	Device Product ID (257):	1112, 58
+	Device Node (258):	"/dev/input/event2"
+	Evdev Axis Inversion (266):	0, 0
+	Evdev Axes Swap (268):	0
+	Axis Labels (269):	"Rel X" (151), "Rel Y" (152), "Rel Vert Wheel" (261)
+	Button Labels (270):	"Button Left" (144), "Button Middle" (145), "Button Right" (146), "Button Wheel Up" (147), "Button Wheel Down" (148), "Button Horiz Wheel Left" (149), "Button Horiz Wheel Right" (150)
+	Evdev Middle Button Emulation (271):	0
+	Evdev Middle Button Timeout (272):	50
+	Evdev Third Button Emulation (273):	0
+	Evdev Third Button Emulation Timeout (274):	1000
+	Evdev Third Button Emulation Button (275):	3
+	Evdev Third Button Emulation Threshold (276):	20
+	Evdev Wheel Emulation (277):	0
+	Evdev Wheel Emulation Axes (278):	0, 0, 4, 5
+	Evdev Wheel Emulation Inertia (279):	10
+	Evdev Wheel Emulation Timeout (280):	200
+	Evdev Wheel Emulation Button (281):	4
+	Evdev Drag Lock Buttons (282):	0
